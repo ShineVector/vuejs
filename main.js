@@ -1,7 +1,7 @@
-var app = new Vue({
-	el: '#app',
-	data: {
-		product: 'Socks'
-		image: './img/socks.jpeg'
+const app = Vue.createApp({
+	data() {
+		return {
+		message: ''
+		}
 	}
-})
+}).mount('#app')
